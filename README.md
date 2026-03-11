@@ -1,38 +1,10 @@
-## 🏨 The Wild Oasis — Hotel Booking Platform
+## 🏨 The Wild Oasis — Hotel Management System
 
-A modern **hotel reservation web application** that allows users to browse cabins, explore detailed information, and create reservations through a clean and responsive interface.
+**The Wild Oasis** is a modern hotel reservation web application that allows users to browse available cabins, explore detailed cabin information, and make reservations through a clean and responsive interface.
 
-The project demonstrates modern **full-stack web development practices** using the App Router architecture, secure authentication, and scalable component-based design.
+The application simulates a real-world hotel booking experience where users can view cabin availability, check details, and reserve cabins for specific dates. It focuses on providing a smooth and intuitive user experience with a simple and well-structured design.
 
----
-
-## 📑 Table of Contents
-
-- [About The Project](#about-the-project)
-- [Live Demo](#live-demo)
-- [Demo Video](#demo-video)
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [Built Using](#built-using)
-- [Getting Started and Usage](#getting-started-and-usage)
-
----
-
-## 🧐 About The Project
-
-**The Wild Oasis** is a hotel booking web application designed to simulate a real-world reservation system.  
-
-The platform allows users to explore available cabins, view detailed cabin information, and make reservations through an intuitive and user-friendly interface.
-
-The application focuses on building a **scalable and maintainable frontend architecture**, while integrating modern backend services for authentication and data management.
-
-This project demonstrates practical experience in:
-
-- Building modern React applications
-- Implementing authentication flows
-- Handling server-side data operations
-- Structuring scalable component-based projects
-- Integrating external backend services
+The project is built using modern web technologies and follows a scalable architecture, integrating authentication, server-side data handling, and a component-based structure to deliver a reliable and efficient booking experience.
 
 ---
 
@@ -41,7 +13,7 @@ This project demonstrates practical experience in:
 🔗 Live Website
 
 
-[https://your-live-demo-link.com](https://the-wild-oasis-website-omega-khaki.vercel.app/)
+[The Wild Oasis Live](https://the-wild-oasis-website-omega-khaki.vercel.app/)
 
 
 *(Deployable using Vercel)*
@@ -53,7 +25,7 @@ This project demonstrates practical experience in:
 📺 Watch the project walkthrough
 
 
-[https://your-demo-video-link.com](https://drive.google.com/drive/folders/1vL1zIoLGn4RjzT4bA2uZdFRaHD3APgNF?usp=sharing)
+[The Wild Oasis Demo Video](https://drive.google.com/drive/folders/1vL1zIoLGn4RjzT4bA2uZdFRaHD3APgNF?usp=sharing)
 
 
 ---
@@ -147,43 +119,22 @@ Built using reusable components and scalable folder structure.
 
 ---
 
-## 🏁 Getting Started and Usage
+## 🏁 Getting Started
 
-Follow the steps below to run the project locally.
+Follow the steps below to run the project locally on your machine.
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
-
-git clone https://github.com/your-username/the-wild-oasis-website.git
-
-
----
-
-### 2️⃣ Navigate to the project directory
-
-
+```bash
+git clone https://github.com/Karim-Mohamed20/the-wild-oasis-website.git
+2. Navigate to the project directory
 cd the-wild-oasis-website
-
-
----
-
-### 3️⃣ Install dependencies
-
-
+3. Install dependencies
 npm install
-
-
----
-
-### 4️⃣ Start the development server
-
-
+4. Start the development server
 npm run dev
+5. Open the application
 
-
----
-
-## 5️⃣ Open in your browser
-
+Once the server starts, open your browser and visit:
 
 http://localhost:3000
