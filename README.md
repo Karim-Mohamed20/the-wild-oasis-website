@@ -67,32 +67,6 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 
 ---
 
-
-## ✨ Features
-
-- #### 🔐 Authentication
-  Secure login system for users.
-
-- #### 🏡 Cabin Browsing
-  Users can explore available cabins with pricing and details.
-
-- #### 📄 Cabin Details
-  Each cabin includes detailed information and reservation options.
-
-- #### 📅 Reservation System
-  Users can book cabins for specific dates.
-
-- #### 👤 Account Management
-  Users can update their personal information.
-
-- #### 📱 Responsive Design
-  The interface is optimized for both desktop and mobile devices.
-
-- #### ⚡ Modern React Architecture
-  Built using reusable components and scalable folder structure.
-
----
-
 ## 🛠 Built Using
 
 - Next.js - Web Framework
