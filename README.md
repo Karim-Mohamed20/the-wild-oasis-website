@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🏨 The Wild Oasis — Hotel Management System
 
-## Getting Started
+The Wild Oasis is a modern hotel reservation web application that allows users to browse cabins, view detailed information, and make reservations through a clean and responsive interface. The project simulates a real hotel booking system and is built using modern web technologies with a scalable, component-based architecture, authentication, and server-side data handling to provide a smooth user experience.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+[The Wild Oasis Live](https://the-wild-oasis-website-omega-khaki.vercel.app/)
+
+---
+
+## 🎥 Demo Video
+
+[The Wild Oasis Video](https://drive.google.com/drive/folders/1vL1zIoLGn4RjzT4bA2uZdFRaHD3APgNF?usp=sharing)
+
+---
+
+
+## 📸 Screenshots
+
+### Login Page
+
+![Login Screenshot](./public/screenshots/5.png)
+
+---
+
+### Home Page
+
+![Home Screenshot](./public/screenshots/1.png)
+
+---
+
+### Cabins Page
+
+![Cabins Screenshot](./public/screenshots/2.png)
+
+---
+
+### About Page
+
+![About Screenshot](./public/screenshots/3.png)
+
+---
+
+### Cabin Details & Reservation
+
+![Reservation Screenshot](./public/screenshots/4.png)
+
+---
+
+### Your Reservations
+
+![Reservations Screenshot](./public/screenshots/6.png)
+
+---
+
+### Edit Reservation
+
+![Edit Reservation Screenshot](./public/screenshots/7.png)
+
+---
+
+### Update Profile Page
+
+![Update Screenshot](./public/screenshots/8.png)
+
+---
+
+## 🛠 Built Using
+
+- Next.js - Web Framework
+- Auth.js - Authentication Library
+- TailwindCSS - CSS Framework
+- React - Web Framework
+- Vite - Build Tool
+- supabase - Backed Server
+- react-icons - Icon Library 
+
+---
+
+## 🏁 Getting Started
+
+Follow the steps below to run the project locally on your machine.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository
+  git clone https://github.com/Karim-Mohamed20/the-wild-oasis-website.git
+2. Navigate to the project directory
+  cd the-wild-oasis-website
+3. Install dependencies
+  npm install
+4. Start the development server
+  npm run dev
+5. Open the application
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server starts, open your browser and visit:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+http://localhost:3000
