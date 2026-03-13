@@ -5,15 +5,32 @@ import { useReservation } from "./ReservationContext";
 import { createBooking } from "../_lib/actions";
 import SubmitButton from "./SubmitButton";
 
-function ReservationForm({cabin, user}) {
-  const {range, resetRange} = useReservation();
-  const {maxCapacity, regularPrice, discount, id} = cabin;
+type Cabin = {
+  id: number;
+  maxCapacity: number;
+  regularPrice: number;
+  discount: number;
+};
+
+type User = {
+  name?: string;
+  image?: string;
+};
+
+type ReservationFormProps = {
+  cabin: Cabin;
+  user: User;
+};
+
+function ReservationForm({ cabin, user }: ReservationFormProps) {
+  const { range, resetRange } = useReservation();
+  const { maxCapacity, regularPrice, discount, id } = cabin;
   const startDate = range.from;
   const endDate = range.to;
-  const numNights = differenceInDays(endDate, startDate);
-  const cabinPrice = numNights*(regularPrice-discount);
+  const numNights = startDate && endDate ? differenceInDays(endDate, startDate) : 0;
+  const cabinPrice = numNights * (regularPrice - discount);
 
-  const bookingData = {startDate, endDate, numNights, cabinPrice,cabinId:id};
+  const bookingData = { startDate, endDate, numNights, cabinPrice, cabinId: id };
 
   const createBookingWithData = createBooking.bind(null, bookingData);
 
@@ -29,7 +46,7 @@ function ReservationForm({cabin, user}) {
             src={user.image}
             alt={user.name}
           />
-          <p>{user.name}</p>
+          <p>{user.name ?? "Guest"}</p>
         </div>
       </div>
 

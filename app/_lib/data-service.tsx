@@ -96,18 +96,17 @@ export async function getBookings(guestId) {
   return data;
 }
 
-export async function getBookedDatesByCabinId(cabinId) {
-  let today = new Date();
+export async function getBookedDatesByCabinId(cabinId: number) {
+  const today = new Date();
   today.setUTCHours(0, 0, 0, 0);
-  today = today.toISOString();
-
+  const todayIso = today.toISOString();
 
   // Getting all bookings
   const { data, error } = await supabase
-    .from('bookings')
-    .select('*')
-    .eq('cabinId', cabinId)
-    .or(`startDate.gte.${today},status.eq.checked-in`);
+    .from("bookings")
+    .select("*")
+    .eq("cabinId", cabinId)
+    .or(`startDate.gte.${todayIso},status.eq.checked-in`);
 
   if (error) {
     console.error(error);

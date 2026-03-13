@@ -1,40 +1,62 @@
 "use client"
 import { differenceInDays, isPast, isSameDay, isWithinInterval } from "date-fns";
-import { DayPicker } from "react-day-picker";
+import { DayPicker, type DateRange } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 import { useReservation } from "./ReservationContext";
 
-function isAlreadyBooked(range, datesArr) {
-  return (
-    range.from &&
-    range.to &&
-    datesArr.some((date) =>
-      isWithinInterval(date, { start: range.from, end: range.to })
-    )
+type BookingSettings = {
+  minBookingLength: number;
+  maxBookingLength: number;
+};
+
+type Cabin = {
+  regularPrice: number;
+  discount: number;
+};
+
+type DateSelectorProps = {
+  settings: BookingSettings;
+  bookedDates: Date[];
+  cabin: Cabin;
+};
+
+type ReservationRange = {
+  from?: Date;
+  to?: Date;
+};
+
+function isAlreadyBooked(range: ReservationRange, datesArr: Date[]) {
+  if (!range.from || !range.to) return false;
+  return datesArr.some((date) =>
+    isWithinInterval(date, { start: range.from!, end: range.to! })
   );
 }
 
-function DateSelector({settings, bookedDates, cabin}) {
+function DateSelector({ settings, bookedDates, cabin }: DateSelectorProps) {
+  const { range, setRange, resetRange } = useReservation();
 
-  const {range, setRange, resetRange} = useReservation();
+  const isBookedRange = isAlreadyBooked(range, bookedDates);
+  const selectedRange: DateRange | undefined =
+    range.from && !isBookedRange ? (range as DateRange) : undefined;
 
-  const displayRange = isAlreadyBooked(range, bookedDates) ? {} : range;
+  const { regularPrice, discount } = cabin;
 
-  const {regularPrice, discount} = cabin;
+  const numNights =
+    range.from && range.to ? differenceInDays(range.to, range.from) : 0;
+  const cabinPrice = numNights * (regularPrice - discount);
 
-  const numNights = differenceInDays(displayRange.to, displayRange.from);
-  const cabinPrice = numNights*(regularPrice-discount);
-
-  const {minBookingLength, maxBookingLength} = settings;
+  const { minBookingLength, maxBookingLength } = settings;
 
   return (
     <div className="flex flex-col justify-between">
       <DayPicker
         className="pt-12 place-self-center"
         mode="range"
-        onSelect={(range)=>setRange(range)}
-        selected={displayRange}
-        min={minBookingLength + 1}
+        onSelect={(range) =>
+          setRange(range ?? { from: undefined, to: undefined })
+        }
+        selected={selectedRange}
+        min={minBookingLength}
         max={maxBookingLength}
         fromMonth={new Date()}
         fromDate={new Date()}
