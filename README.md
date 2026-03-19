@@ -4,16 +4,16 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 
 ---
 
-## � Built Using
+## ✨ Features
 
-- **Next.js** - React framework for web applications with SSR
-- **React** - JavaScript library for user interfaces
-- **TypeScript** - Typed superset of JavaScript
-- **TailwindCSS** - CSS framework for styling
-- **Auth.js** - Authentication Library
-- **Supabase** - Backend server and database
-- **Vite** - Build Tool
-- **react-icons** - Icon Library
+- 🔐 **User Authentication** - Secure login and signup with Auth.js
+- 🏡 **Browse Cabins** - View all available cabins with detailed information and images
+- 🔍 **Filter & Search** - Filter cabins by name and other criteria
+- 📅 **Make Reservations** - Easy-to-use reservation system with date selection
+- 📝 **Manage Reservations** - View, edit, and cancel your bookings
+- 👤 **User Profile Management** - Update personal information and profile details
+- 📱 **Responsive Design** - Fully responsive UI that works on all devices
+- 🎨 **Modern UI** - Built with TailwindCSS for a sleek and professional look
 
 ---
 
@@ -26,19 +26,6 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 ## 🎥 Demo Video
 
 [The Wild Oasis Video](https://drive.google.com/drive/folders/1vL1zIoLGn4RjzT4bA2uZdFRaHD3APgNF?usp=sharing)
-
----
-
-## ✨ Features
-
-- 🔐 **User Authentication** - Secure login and signup with Auth.js
-- 🏡 **Browse Cabins** - View all available cabins with detailed information and images
-- 🔍 **Filter & Search** - Filter cabins by name and other criteria
-- 📅 **Make Reservations** - Easy-to-use reservation system with date selection
-- 📝 **Manage Reservations** - View, edit, and cancel your bookings
-- 👤 **User Profile Management** - Update personal information and profile details
-- 📱 **Responsive Design** - Fully responsive UI that works on all devices
-- 🎨 **Modern UI** - Built with TailwindCSS for a sleek and professional look
 
 ---
 
@@ -89,6 +76,19 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 ### Update Profile Page
 
 ![Update Screenshot](./public/screenshots/8.png)
+
+---
+
+## � Built Using
+
+- **Next.js** - React framework for web applications with SSR
+- **React** - JavaScript library for user interfaces
+- **TypeScript** - Typed superset of JavaScript
+- **TailwindCSS** - CSS framework for styling
+- **Auth.js** - Authentication Library
+- **Supabase** - Backend server and database
+- **Vite** - Build Tool
+- **react-icons** - Icon Library
 
 ---
 
