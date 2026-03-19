@@ -4,6 +4,19 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 
 ---
 
+## � Built Using
+
+- **Next.js** - React framework for web applications with SSR
+- **React** - JavaScript library for user interfaces
+- **Auth.js** - Authentication Library
+- **Supabase** - Backend server and database
+- **TypeScript** - Typed superset of JavaScript
+- **TailwindCSS** - CSS framework for styling
+- **Vite** - Build Tool
+- **react-icons** - Icon Library
+
+---
+
 ## 🚀 Live Demo
 
 [The Wild Oasis Live](https://the-wild-oasis-website-omega-khaki.vercel.app/)
@@ -16,6 +29,18 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 
 ---
 
+## ✨ Features
+
+- 🔐 **User Authentication** - Secure login and signup with Auth.js
+- 🏡 **Browse Cabins** - View all available cabins with detailed information and images
+- 🔍 **Filter & Search** - Filter cabins by name and other criteria
+- 📅 **Make Reservations** - Easy-to-use reservation system with date selection
+- 📝 **Manage Reservations** - View, edit, and cancel your bookings
+- 👤 **User Profile Management** - Update personal information and profile details
+- 📱 **Responsive Design** - Fully responsive UI that works on all devices
+- 🎨 **Modern UI** - Built with TailwindCSS for a sleek and professional look
+
+---
 
 ## 📸 Screenshots
 
@@ -64,18 +89,6 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 ### Update Profile Page
 
 ![Update Screenshot](./public/screenshots/8.png)
-
----
-
-## 🛠 Built Using
-
-- Next.js - Web Framework
-- Auth.js - Authentication Library
-- TailwindCSS - CSS Framework
-- React - Web Framework
-- Vite - Build Tool
-- supabase - Backed Server
-- react-icons - Icon Library 
 
 ---
 
