@@ -8,10 +8,10 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 
 - **Next.js** - React framework for web applications with SSR
 - **React** - JavaScript library for user interfaces
-- **Auth.js** - Authentication Library
-- **Supabase** - Backend server and database
 - **TypeScript** - Typed superset of JavaScript
 - **TailwindCSS** - CSS framework for styling
+- **Auth.js** - Authentication Library
+- **Supabase** - Backend server and database
 - **Vite** - Build Tool
 - **react-icons** - Icon Library
 
