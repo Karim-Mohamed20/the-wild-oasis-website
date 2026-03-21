@@ -4,6 +4,17 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 
 ---
 
+## 📑 Table of Contents
+
+- [✨ Features](#-features)
+- [🚀 Live Demo](#-live-demo)
+- [🎥 Demo Video](#-demo-video)
+- [📸 Screenshots](#-screenshots)
+- [� Built Using](#-built-using)
+- [🏁 Getting Started](#-getting-started)
+
+---
+
 ## ✨ Features
 
 - 🔐 **User Authentication** - Secure login and signup with Auth.js
