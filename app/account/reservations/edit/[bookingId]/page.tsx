@@ -13,11 +13,11 @@ export default async function Page({params}) {
 
   return (
     <div>
-      <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+      <h2 className="font-semibold text-xl sm:text-2xl text-accent-400 mb-6 sm:mb-7">
         Edit Reservation #{bookingId}
       </h2>
 
-      <form action={updateBooking} className="bg-primary-900 py-8 px-12 text-lg flex gap-6 flex-col">
+      <form action={updateBooking} className="bg-primary-900 py-8 px-4 sm:px-8 lg:px-12 text-base sm:text-lg flex gap-6 flex-col">
         <input type="hidden" value={bookingId} name="bookingId"/>
         <div className="space-y-2">
           <label htmlFor="numGuests">How many guests?</label>
@@ -50,7 +50,7 @@ export default async function Page({params}) {
           />
         </div>
 
-        <div className="flex justify-end items-center gap-6">
+        <div className="flex justify-end items-center gap-3 sm:gap-6">
           <SubmitButton pendingLabel="Updating...">
             Update reservation
           </SubmitButton>

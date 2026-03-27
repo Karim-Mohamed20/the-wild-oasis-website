@@ -9,7 +9,7 @@ export default function UpdateProfileForm({guest, children}) {
 
   return (
     <div>
-        <form action={updateGuest} className="bg-primary-900 py-8 px-12 text-lg flex gap-6 flex-col">
+        <form action={updateGuest} className="bg-primary-900 py-8 px-4 sm:px-8 lg:px-12 text-base sm:text-lg flex gap-6 flex-col">
         <div className="space-y-2">
           <label>Full name</label>
           <input
@@ -52,7 +52,7 @@ export default function UpdateProfileForm({guest, children}) {
           />
         </div>
 
-        <div className="flex justify-end items-center gap-6">
+        <div className="flex justify-end items-center gap-3 sm:gap-6">
           <SubmitButton pendingLabel="Updating...">Update Profile</SubmitButton>
         </div>
       </form>

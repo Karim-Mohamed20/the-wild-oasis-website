@@ -8,9 +8,9 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center">
-      <div className="col-span-3">
-        <h1 className="text-4xl mb-10 text-accent-400 font-medium">
+    <div className="grid grid-cols-1 lg:grid-cols-5 gap-x-10 xl:gap-x-24 gap-y-12 lg:gap-y-20 text-base sm:text-lg items-center">
+      <div className="lg:col-span-3">
+        <h1 className="text-3xl sm:text-4xl mb-6 sm:mb-10 text-accent-400 font-medium">
           Welcome to StayNest
         </h1>
 
@@ -36,7 +36,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="col-span-2">
+      <div className="lg:col-span-2">
         <Image
           src={image1}
           placeholder='blur'
@@ -45,7 +45,7 @@ export default function Page() {
         />
       </div>
 
-      <div className="col-span-2">
+      <div className="lg:col-span-2 lg:order-3">
         <Image
           src={image2}
           placeholder='blur'
@@ -54,8 +54,8 @@ export default function Page() {
         />
       </div>
 
-      <div className="col-span-3">
-        <h1 className="text-4xl mb-10 text-accent-400 font-medium">
+      <div className="lg:col-span-3 lg:order-4">
+        <h1 className="text-3xl sm:text-4xl mb-6 sm:mb-10 text-accent-400 font-medium">
           Managed by our family since 1962
         </h1>
 
@@ -78,7 +78,7 @@ export default function Page() {
           <div>
             <a
               href="/cabins"
-              className="inline-block mt-4 bg-accent-500 px-8 py-5 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all"
+              className="inline-block mt-4 bg-accent-500 px-6 py-4 sm:px-8 sm:py-5 text-primary-800 text-base sm:text-lg font-semibold hover:bg-accent-600 transition-all"
             >
               Explore our luxury cabins
             </a>
