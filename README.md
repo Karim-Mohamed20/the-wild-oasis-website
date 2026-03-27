@@ -4,28 +4,14 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 
 ---
 
-## � Built Using
+## 📑 Table of Contents
 
-- **Next.js** - React framework for web applications with SSR
-- **React** - JavaScript library for user interfaces
-- **TypeScript** - Typed superset of JavaScript
-- **TailwindCSS** - CSS framework for styling
-- **Auth.js** - Authentication Library
-- **Supabase** - Backend server and database
-- **Vite** - Build Tool
-- **react-icons** - Icon Library
-
----
-
-## 🚀 Live Demo
-
-[The Wild Oasis Live](https://the-wild-oasis-website-omega-khaki.vercel.app/)
-
----
-
-## 🎥 Demo Video
-
-[The Wild Oasis Video](https://drive.google.com/drive/folders/1vL1zIoLGn4RjzT4bA2uZdFRaHD3APgNF?usp=sharing)
+- [✨ Features](#-features)
+- [🚀 Live Demo](#-live-demo)
+- [🎥 Demo Video](#-demo-video)
+- [📸 Screenshots](#-screenshots)
+- [� Built Using](#-built-using)
+- [🏁 Getting Started](#-getting-started)
 
 ---
 
@@ -39,6 +25,18 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 - 👤 **User Profile Management** - Update personal information and profile details
 - 📱 **Responsive Design** - Fully responsive UI that works on all devices
 - 🎨 **Modern UI** - Built with TailwindCSS for a sleek and professional look
+
+---
+
+## 🚀 Live Demo
+
+[The Wild Oasis Live](https://the-wild-oasis-website-omega-khaki.vercel.app/)
+
+---
+
+## 🎥 Demo Video
+
+[The Wild Oasis Video](https://drive.google.com/drive/folders/1vL1zIoLGn4RjzT4bA2uZdFRaHD3APgNF?usp=sharing)
 
 ---
 
@@ -89,6 +87,19 @@ The Wild Oasis is a modern hotel reservation web application that allows users t
 ### Update Profile Page
 
 ![Update Screenshot](./public/screenshots/8.png)
+
+---
+
+## � Built Using
+
+- **Next.js** - React framework for web applications with SSR
+- **React** - JavaScript library for user interfaces
+- **TypeScript** - Typed superset of JavaScript
+- **TailwindCSS** - CSS framework for styling
+- **Auth.js** - Authentication Library
+- **Supabase** - Backend server and database
+- **Vite** - Build Tool
+- **react-icons** - Icon Library
 
 ---
 
